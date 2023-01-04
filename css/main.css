@@ -326,6 +326,61 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
+.input {
+  display: block;
+  border: 0px;
+  border-bottom: 1px solid #dbd8d7;
+  width: 90vw;
+  margin-top: 15px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-me {
-  display: grid;
+  background-color: white;
+  padding: 10pz;
+}
+
+#contact-message {
+  background-color: #fbf8f7;
+  height: 80px;
+  padding: 10px;
+}
+
+.contact-header {
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #ff6b00;
+  border: 0;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
+
+.contact-social {
+  display: flex;
+  justify-content: center;
+}
+
+.h-rule {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.h-rule hr {
+  color: #dfe1e6;
+  width: 95vw;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
