@@ -290,19 +290,114 @@
           </ul>
         </div>
         <setion class="contact-me">
-          <h3 class="contact-heade">
+          <h3 class="contact-header">
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
           </h3>
-          <form action="post">
-            <input type="text" />
-            <input type="email" />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button class="submit-btn">Get in touch</button>
+          <form action="post" class="form">
+            <ul>
+              <li>
+                <input
+                  type="text"
+                  placeholder="full name"
+                  name="full name"
+                  maxlength="30"
+                  class="input"
+                />
+              </li>
+              <li>
+                <input
+                  type="email"
+                  placeholder="emai address"
+                  name="email"
+                  required
+                  class="input"
+                />
+              </li>
+              <li>
+                <textarea
+                  name="contact message"
+                  id="contact-message"
+                  placeholder="enter text here"
+                  maxlength="500"
+                  class="input"
+                ></textarea>
+              </li>
+              <li>
+                <button class="submit-btn">Get in touch</button>
+              </li>
+            </ul>
           </form>
         </setion>
       </div>
     </main>
+    <footer>
+      <div class="h-rule">
+        <hr />
+      </div>
+      <div class="contact-social">
+        <a
+          class="social-link"
+          href="https://github.com/SpaYco"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="social-icon"
+            src="./media/svg/github.svg"
+            alt="GitHub Icon"
+          />
+        </a>
+        <a
+          class="social-link"
+          href="https://www.linkedin.com/in/spayco"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="social-icon"
+            src="./media/svg/linkedin.svg"
+            alt="LinkedIn Icon"
+          />
+        </a>
+        <a
+          class="social-link"
+          href="https://angel.co/spayco"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="social-icon"
+            src="./media/svg/angel.svg"
+            alt="AngelList Icon"
+          />
+        </a>
+        <a
+          class="social-link"
+          href="https://twitter.com/iSpaYco"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="social-icon"
+            src="./media/svg/twitter.svg"
+            alt="Twitter Icon"
+          />
+        </a>
+        <a
+          class="social-link"
+          href="https://spayco.medium.com/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="social-icon"
+            src="./media/svg/medium.svg"
+            alt="Medium Icon"
+          />
+        </a>
+      </div>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
