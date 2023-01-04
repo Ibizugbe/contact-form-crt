@@ -328,7 +328,7 @@ li {
 
 .input {
   display: block;
-  border: 0px;
+  border: 0;
   border-bottom: 1px solid #dbd8d7;
   width: 90vw;
   margin-top: 15px;
