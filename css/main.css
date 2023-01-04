@@ -343,7 +343,7 @@ li {
 
 .contact-me {
   background-color: white;
-  padding: 10pz;
+  padding-top: 30px;
 }
 
 #contact-message {
@@ -353,7 +353,10 @@ li {
 }
 
 .contact-header {
-  font-size: 16px;
+  font-size: 36px;
+  color: #262626;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
 }
 
 .submit-btn {
@@ -362,6 +365,17 @@ li {
   color: white;
   width: 150px;
   height: 40px;
+}
+
+.submit-btn:hover {
+  border: 1px solid #f55800;
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.submit-btn:active {
+  background-color: #e05304;
+  color: #e5e5e5;
 }
 
 .contact-social {
