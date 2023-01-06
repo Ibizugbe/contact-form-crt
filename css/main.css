@@ -336,11 +336,6 @@ li {
   padding: 0 10px;
 }
 
-.form {
-  display: flex;
-  justify-content: center;
-}
-
 .contact-me {
   background-color: white;
   padding-top: 30px;
